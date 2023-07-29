@@ -1,0 +1,27 @@
+body{
+    font-size: 2rem;
+}
+
+.container .articulo{
+    min-width: 300px;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin: 45px;
+}
+iframe{
+    display: block;
+    position: fixed;
+    width: 25%;
+    height: 25%;
+    bottom: 20px;
+}
+
+img{
+    max-width: 600px;
+    max-height: 700px;
+}
+
+.conclusion{
+    margin: 20px;
+}

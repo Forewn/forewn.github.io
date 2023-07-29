@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100%;
+}
+
+.mainbar nav{
+    max-width: 45px;
+    max-height: 50px;
+}
+
+.mainbar{
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    background: url(../img/gradiente\ .jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 100vw;
+    color: #fff;
+    position: fixed;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.mainbar nav > img{
+    width: 100%;
+}
+
+.mainbar .delete{
+    background-color: blue;
+}
+
+.mainbar h1{
+    display: block;
+    width: 100%;
+}
+
+.mainbar ul{
+    display: inherit;
+    flex: auto;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .articulo{
+    min-width: 300px;
+    width: 100%;
+    text-align: justify;
+    text-align: center;
+    margin-top: 60px;
+    padding: 10PX;
+}
+
+img{
+    width: 60vw;
+    padding: 10px;
+}
+
+iframe{
+    width: 100%;
+    padding: 0 20px;
+}
+
+.conclusion{
+    min-width: 300px;
+    width: 100%;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+footer{
+    text-align: center;
+    background: url(../img/gradiente\ .jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    color: #fff;
+}

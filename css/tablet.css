@@ -1,0 +1,25 @@
+.container .articulo{
+    min-width: 200px;
+    width: 35%;
+    text-align: justify;
+    text-align: center;
+    margin: 60 0 0 10px;
+}
+
+img{
+    width:100%;
+    text-align: justify;
+    padding: 10px;
+}
+
+iframe{
+    min-width: none;
+    width: 63%;
+    max-height: 30%;
+    margin-top: 60px;
+}
+
+.conclusion{
+    width: 100vw;
+    padding: 10px;
+}

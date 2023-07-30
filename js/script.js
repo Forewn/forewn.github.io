@@ -34,3 +34,9 @@ menubtn.addEventListener('click', ()=> {
         openedMenu = true;
     }
 });
+
+bgmobilenav.addEventListener('click', () => {
+    options.setAttribute('style', 'display:none');
+    bgmobilenav.setAttribute('style', 'opacity:0;');
+    openedMenu = false;
+});

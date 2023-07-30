@@ -1,3 +1,7 @@
+:root{
+    --pinky: url(../img/gradiente\ .jpg);
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -27,7 +31,7 @@ header{
     display: flex;
     font-size: 2rem;
     text-align: center;
-    background: url(../img/gradiente\ .jpg);
+    background: var(--pinky);
     background-size: 100%;
     background-repeat:no-repeat;
     width: 100vw;
@@ -64,12 +68,50 @@ header{
     position: relative;
 }
 
+.navmobile-options-background{
+    background-color: rgba(0, 0, 0, 0.425);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    position: fixed;
+}
+
 .navmobile-options{
-    display:none;
+    display: none;
+    position: fixed;
+    top: 50px;
+    height: 100vh;
+    width: 50vw;
+    background-color: #cb9241;
+
+}
+
+.navmobile-options ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
+.navmobile-options li{
+    padding: 5px;
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+    background-color: #705229;
+}
+
+.navmobile-options a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navmobile-options li:hover{
+    background-color: #bea582;
 }
 
 main{
-    margin: 10px 10%;
+    margin: 10px 5%;
 }
 
 .custom-loader {
@@ -87,8 +129,11 @@ main{
 
 footer{
     text-align: center;
-    background: url(../img/gradiente\ .jpg);
+    background: var(--pinky);
     background-size: 100%;
     background-repeat:no-repeat;
     color: #fff;
+    position: absolute;
+    top: 100%;
+    width: 100vw;
 }

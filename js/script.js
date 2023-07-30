@@ -4,8 +4,9 @@ const footer = document.querySelector('footer');
 const content = document.querySelector('main');
 const menubtn = document.querySelector('.navmobile');
 const options = document.querySelector('.navmobile-options');
+const bgmobilenav = document.querySelector('.navmobile-options-background');
 
-
+var openedMenu = false;
 
 window.addEventListener('DOMContentLoaded', () => {
     loader.setAttribute('style', 'opacity:1;');
@@ -22,5 +23,14 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 menubtn.addEventListener('click', ()=> {
-    options.setAttribute('style', 'display:block;');
+    if(openedMenu){
+        options.setAttribute('style', 'display:none');
+        bgmobilenav.setAttribute('style', 'opacity:0;');
+        openedMenu = false;
+    }
+    else{
+        options.setAttribute('style', 'display:block;');
+        bgmobilenav.setAttribute('style', 'opacity:1;');
+        openedMenu = true;
+    }
 });

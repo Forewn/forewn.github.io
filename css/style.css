@@ -1,5 +1,5 @@
 :root{
-    --pinky: url(../img/gradiente\ .jpg);
+    --pinky: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 }
 
 *{
@@ -82,7 +82,7 @@ header{
     top: 50px;
     height: 100vh;
     width: 50vw;
-    background-color: #cb9241;
+    background-color: #cca6fe;
 
 }
 
@@ -98,7 +98,7 @@ header{
     width: 100%;
     margin-top: 1%;
     text-align: center;
-    background-color: #705229;
+    background-color: #7b54b6;
 }
 
 .navmobile-options a{
@@ -107,7 +107,7 @@ header{
 }
 
 .navmobile-options li:hover{
-    background-color: #bea582;
+    background-color: #ded1ee;
 }
 
 main{

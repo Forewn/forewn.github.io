@@ -94,11 +94,11 @@ header{
 }
 
 .navmobile-options li{
-    padding: 5px;
+    padding: 20px;
     width: 100%;
     margin-top: 1%;
     text-align: center;
-    background-color: #7b54b6;
+    background-color: #bb99e7;
 }
 
 .navmobile-options a{
@@ -106,7 +106,7 @@ header{
     color: #fff;
 }
 
-.navmobile-options li:hover{
+.navmobile-options li:active{
     background-color: #ded1ee;
 }
 

@@ -2,26 +2,34 @@ body{
     font-size: 2rem;
 }
 
-.container .articulo{
-    min-width: 300px;
-    width: 90%;
-    text-align: center;
-    margin-left: 5%;
-    margin: 45px;
-}
-iframe{
-    display: block;
-    position: fixed;
-    width: 25%;
-    height: 25%;
-    bottom: 20px;
+.mainbar h1{
+    width: 100%;
+    flex-grow: 2;
 }
 
-img{
-    max-width: 600px;
-    max-height: 700px;
+.navmobile, .navmobile-body{
+    display: none;
 }
 
-.conclusion{
-    margin: 20px;
+#nav2{
+    width: 50%;
+    margin-right: 5%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navdesktop{
+    width: 100%;
+    display: inline-block;
+    list-style: none;
+    align-items: end;
+}
+
+.navdesktop li{
+    padding: 5px 20px;
+}
+
+.navdesktop a{
+    text-decoration: none;
+    color: white;
 }

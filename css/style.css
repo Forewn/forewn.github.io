@@ -82,8 +82,14 @@ header{
     top: 50px;
     height: 100vh;
     width: 50vw;
-    background-color: #cca6fe;
+    background-color: #bb99e7;
+    animation: slide 0.1s   1  linear;
+}
 
+@keyframes slide {
+    0%{width: 0vw;}
+    25%{width: 25%;}
+    100%{width: 50vw;}
 }
 
 .navmobile-options ul{
@@ -97,8 +103,20 @@ header{
     padding: 20px;
     width: 100%;
     margin-top: 1%;
-    text-align: center;
-    background-color: #bb99e7;
+    background-color: #cca6fe;
+    font-size: medium;
+}
+
+.navmobile-options img{
+    padding: 0 10px;
+    animation: appear 0.1s   1  linear;
+}
+
+@keyframes appear {
+    0%{position: absolute;
+        padding-left: 0px;}
+    100%{position: static;
+        padding-left: 10px;}
 }
 
 .navmobile-options a{

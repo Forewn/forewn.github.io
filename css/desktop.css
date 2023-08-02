@@ -26,7 +26,11 @@ body{
 }
 
 .navdesktop li{
-    padding: 5px 20px;
+    padding: 20px;
+}
+
+.navdesktop a:hover{
+    background-color: pink;
 }
 
 .navdesktop a{

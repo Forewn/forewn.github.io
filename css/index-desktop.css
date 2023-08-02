@@ -1,0 +1,11 @@
+.banner{
+    height: 70vh;
+}
+
+.banner h1{
+    font-size: 4rem;
+}
+
+.banner p{
+    margin-top: 10vh;
+}

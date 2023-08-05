@@ -5,6 +5,7 @@ const content = document.querySelector('main');
 const menubtn = document.querySelector('.navmobile');
 const options = document.querySelector('.navmobile-options');
 const bgmobilenav = document.querySelector('.navmobile-options-background');
+const carrousel = document.getElementById('Carrousel-Container');
 
 var openedMenu = false;
 

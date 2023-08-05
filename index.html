@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e30faac4a6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header >
@@ -43,13 +44,36 @@
                 <a href=""><li>Blog</li></a>
             </ul>
         </div>
-        
     </section>
     <main>
-        <section class="banner" id="banner1">  
-            <h1>Viaja con nosotros</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quisquam libero quo aspernatur. Aliquid quasi autem vitae!</p>
-            <a href="#banner2" class="infobtn">about</a>
+        <section id="Carrousel-Container">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+                <div class="cardCarrousel" id="tarjetaCarrousel-1">
+                    <img src="img/banner.jpg" alt="">
+                </div>
+                <div class="arrowCarrousel">
+                    <a href="#itemCarrousel-3"><i class="fa-solid fa-chevron-left"></i></a>
+                    <a href="#itemCarrousel-2"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+                <div class="cardCarrousel" id="tarjetaCarrousel-2">
+                    <img src="./img/Logo Unefa.jpg" alt="">
+                </div>
+                <div class="arrowCarrousel">
+                    <a href="#itemCarrousel-1"><i class="fa-solid fa-chevron-left"></i></a>
+                    <a href="#itemCarrousel-3"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+                <div class="cardCarrousel" id="tarjetaCarrousel-3">
+                    <img src="./img/BoardingPass_MyNameOnFutureMission.png" alt="">
+                </div>
+                <div class="arrowCarrousel">
+                    <a href="#itemCarrousel-2"><i class="fa-solid fa-chevron-left"></i></a>
+                    <a href="#itemCarrousel-1"><i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+            </div>
         </section>      
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nobis perspiciatis voluptas excepturi, quibusdam asperiores itaque quis accusamus dolor ut, molestias, ducimus amet odit! Omnis ipsa sunt numquam libero velit?</p>
         <section class="banner" id="banner2">

@@ -24,19 +24,21 @@ window.addEventListener('DOMContentLoaded', () => {
 
 menubtn.addEventListener('click', ()=> {
     if(openedMenu){
-        options.setAttribute('style', 'display:none');
-        bgmobilenav.setAttribute('style', 'opacity:0;');
+        options.setAttribute('style', 'display:none;');
+        bgmobilenav.classList.replace('navmobile-options-background-onclick', 'navmobile-options-background');
         openedMenu = false;
     }
     else{
         options.setAttribute('style', 'display:block;');
-        bgmobilenav.setAttribute('style', 'opacity:1;');
+        bgmobilenav.classList.replace('navmobile-options-background', 'navmobile-options-background-onclick');
         openedMenu = true;
     }
 });
 
 bgmobilenav.addEventListener('click', () => {
-    options.setAttribute('style', 'display:none');
-    bgmobilenav.setAttribute('style', 'opacity:0;');
-    openedMenu = false;
+    if(openedMenu){
+        options.setAttribute('style', 'display:none');
+        bgmobilenav.classList.replace('navmobile-options-background-onclick', 'navmobile-options-background');
+        openedMenu = false;
+    }
 });

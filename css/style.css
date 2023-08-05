@@ -71,11 +71,15 @@ header{
 }
 
 .navmobile-options-background{
-    background-color: rgba(0, 0, 0, 0.425);
+    width: 0;
+    height: 0;
+}
+
+.navmobile-options-background-onclick{
     width: 100vw;
     height: 100vh;
-    opacity: 0;
     position: fixed;
+    background-color: rgba(0, 0, 0, 0.425);
 }
 
 .navmobile-options{

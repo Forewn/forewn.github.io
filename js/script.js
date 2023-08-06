@@ -6,6 +6,7 @@ const menubtn = document.querySelector('.navmobile');
 const options = document.querySelector('.navmobile-options');
 const bgmobilenav = document.querySelector('.navmobile-options-background');
 const carrousel = document.getElementById('Carrousel-Container');
+const carrouselbtn = document.querySelectorAll('.arrowCarrousel');
 
 var openedMenu = false;
 
@@ -20,7 +21,6 @@ window.addEventListener('DOMContentLoaded', () => {
         footer.setAttribute('style', 'opacity:1');
         content.setAttribute('style', 'opacity:1;');
     });
-    
 });
 
 menubtn.addEventListener('click', ()=> {
@@ -43,3 +43,10 @@ bgmobilenav.addEventListener('click', () => {
         openedMenu = false;
     }
 });
+
+for(let i = 0; i < carrouselbtn.length; i++){
+    carrouselbtn[i].addEventListener('click', () => {
+        window.scrollTo(0, 0);
+    });
+}
+

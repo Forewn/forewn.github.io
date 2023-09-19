@@ -6,7 +6,8 @@ const menubtn = document.querySelector('.navmobile');
 const options = document.querySelector('.navmobile-options');
 const bgmobilenav = document.querySelector('.navmobile-options-background');
 const carrousel = document.getElementById('Carrousel-Container');
-const carrouselbtn = document.querySelectorAll('.arrowCarrousel');
+const carrouselbtnleft = document.querySelectorAll('.fa-solid fa-chevron-left');
+const carrouselbtnright = document.querySelectorAll('.fa-solid fa-chevron-right');
 
 var openedMenu = false;
 
@@ -44,8 +45,14 @@ bgmobilenav.addEventListener('click', () => {
     }
 });
 
-for(let i = 0; i < carrouselbtn.length; i++){
-    carrouselbtn[i].addEventListener('click', () => {
+for(let i = 0; i < carrouselbtnleft.length; i++){
+    carrouselbtnleft[i].addEventListener('click', () => {
+        window.scrollTo(0, 0);
+    });
+}
+
+for(let i = 0; i < carrouselbtnright.length; i++){
+    carrouselbtnright[i].addEventListener('click', () => {
         window.scrollTo(0, 0);
     });
 }

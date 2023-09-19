@@ -1,5 +1,5 @@
 :root{
-    --pinky: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    --pinky: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
 
 *{
@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -43,7 +43,6 @@ header{
     max-height: 50px;
     margin-top: 0px;
     opacity: 0;
-    position: relative;
 }
 .mainbar nav > img{
     width: 100%;

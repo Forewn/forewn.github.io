@@ -90,7 +90,7 @@ header{
     top: 50px;
     height: 100vh;
     width: 50vw;
-    background-color: #bb99e7;
+    background-color: #d5fc79;
     animation: slide 0.1s   1  linear;
 }
 
@@ -111,7 +111,7 @@ header{
     padding: 20px;
     width: 100%;
     margin-top: 1%;
-    background-color: #cca6fe;
+    background-color: #91e647;
     font-size: medium;
 }
 
@@ -135,8 +135,6 @@ header{
 .navmobile-options li:active{
     background-color: #ded1ee;
 }
-
-
 
 .custom-loader {
     width:50px;

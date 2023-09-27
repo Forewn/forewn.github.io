@@ -150,6 +150,7 @@ header{
   @keyframes s1 {to{transform: rotate(.5turn)}}
 
 footer{
+    font-size: 1rem;
     text-align: center;
     background: var(--pinky);
     background-size: 100%;

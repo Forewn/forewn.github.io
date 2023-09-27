@@ -14,12 +14,16 @@ var openedMenu = false;
 window.addEventListener('DOMContentLoaded', () => {
     loader.setAttribute('style', 'opacity:1;');
     header.setAttribute('style', 'opacity:1;');
-    footer.setAttribute('style', 'opacity:0');
+    if(footer != null){
+        footer.setAttribute('style', 'opacity:0');
+    }
     content.setAttribute('style', 'opacity:0;');
     window.addEventListener('load', ()=>{
         loader.setAttribute('style', 'opacity:0;');
         header.setAttribute('style', 'opacity:1;');
-        footer.setAttribute('style', 'opacity:1');
+        if(footer != null){
+            footer.setAttribute('style', 'opacity:1');
+        }
         content.setAttribute('style', 'opacity:1;');
     });
 });

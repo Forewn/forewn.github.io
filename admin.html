@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El mundo</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width : 600px)">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width : 800px)">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/login-desktop.css" media="screen and (min-width: 800px)">
 </head>
 <body>
     <header >
@@ -22,13 +15,12 @@
             <nav class="navmobile">
                 <img src="img/menu.png" alt="menu" class="menubtn">
             </nav>
-            <h1>TRAVEL.OS</h1>
+            <h1>INVERNADERO SAMAEL AUM WEOR</h1>
             <nav id="nav2">
                 <ul class="navdesktop">
                     <a href="./index.html"><li>Home</li></a>
-                    <a href="./destinos.html"><li>Destinos</li></a>
-                    <a href=""><li>Contacto</li></a>
-                    <a href=""><li>Blog</li></a>
+                    <a href="./login.html"><li>Login</li></a>
+                    <a href="./signup.html"><li>Registrarse</li></a>
                 </ul>
             </nav>
         </div>
@@ -41,18 +33,26 @@
                     <img src="./img/home.png" alt="home">
                     Home
                 </li></a>
-                <a href="./destinos.html"><li>Destinos</li></a>
-                <a href=""><li>Contacto</li></a>
-                <a href=""><li>Blog</li></a>
+                <a href="./login.html"><li>login</li></a>
+                <a href="./signup.html"><li>Registrarse</li></a>
             </ul>
         </div>
     </section>
     <main>
-        hola
+        <section id="login">
+            <form action="">
+                <h2>Administrador</h2>
+                <label for="user">Usuario</label>
+                <input type="text" name="user">
+                <label for="password">Contrasena</label>
+                <input type="password" name="password">
+                <br>
+                <br>
+                <button>Entrar</button>
+            </form>
+        </section>
     </main>
-    <footer>
-        <p>powered by Jhosmar Suarez</p>
-    </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/login_validation.js"></script>
 </body>
 </html>

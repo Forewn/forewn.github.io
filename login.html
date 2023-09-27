@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width : 600px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width : 800px)">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/login-desktop.css" media="screen and (min-width: 800px)">
+</head>
+<body>
+    <header >
+        <div class="mainbar">
+            <nav class="navmobile">
+                <img src="img/menu.png" alt="menu" class="menubtn">
+            </nav>
+            <h1>INVERNADERO SAMAEL AUM WEOR</h1>
+            <nav id="nav2">
+                <ul class="navdesktop">
+                    <a href="./index.html"><li>Home</li></a>
+                    <a href="./signup.html"><li>Registrarse</li></a>
+                    <a href="./admin.html"><li>Admin</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="custom-loader"></div>
+    <section class="navmobile-options-background">
+        <div class="navmobile-options">
+            <ul>
+                <a href="./index.html"><li>
+                    <img src="./img/home.png" alt="home">
+                    Home
+                </li></a>
+                <a href="./signup.html"><li>Registrarse</li></a>
+                <a href="./admin.html"><li>Admin</li></a>
+            </ul>
+        </div>
+    </section>
+    <main>
+        <section id="login">
+            <form action="">
+                <h2>Iniciar Sesion</h2>
+                <label for="user">Usuario</label>
+                <input type="text" name="user">
+                <label for="password">Contrasena</label>
+                <input type="password" name="password">
+                <br>
+                <br>
+                <button>Entrar</button>
+            </form>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="./js/login_validation.js"></script>
+</body>
+</html>

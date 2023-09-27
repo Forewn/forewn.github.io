@@ -1,3 +1,6 @@
+/* Esta seccion hace los cambios pertinentes a desktop especificos del index, que no seran compartidos
+con las otras paginas, solo maneja pequenos cambios de proporcion de momento */
+
 .banner{
     height: 70vh;
 }

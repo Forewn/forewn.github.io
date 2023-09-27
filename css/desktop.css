@@ -1,16 +1,22 @@
+/* documento compartido para header y menu mobile */
+
+/* este css es importante porque es el que cambia a la version desktop */
 body{
     font-size: 2rem;
 }
 
+/* determinar el margen de crecimiento del titulo con flex */
 .mainbar h1{
     width: 100%;
     flex-grow: 2;
 }
 
+/* esconder menumobile */
 .navmobile, .navmobile-body{
     display: none;
 }
 
+/* aparecen las opciones en el header del menu desktop */
 #nav2{
     width: 50%;
     margin-right: 5%;
@@ -18,13 +24,14 @@ body{
     flex-grow: 1;
 }
 
+/* lista de links */
 .navdesktop{
     width: 100%;
     display: inline-block;
     list-style: none;
     align-items: end;
 }
-
+/* opciones */
 .navdesktop li{
     padding: 15px;
 }
@@ -32,16 +39,18 @@ body{
 .navdesktop a:hover{
     background-color: rgb(130, 221, 99);
 }
-
+/* enlaces de los links */
 .navdesktop a{
     text-decoration: none;
     color: white;
 }
 
+/* letra mas apropiada para un desktop */
 .itemCarrousel p{
     font-size: 70px;
 }
 
+/* igual */
 .banner a{
     margin-right: 20px;
     position: relative;

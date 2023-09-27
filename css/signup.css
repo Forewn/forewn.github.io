@@ -1,3 +1,5 @@
+/* configuraciones para la pantalla de registro */
+
 html{
     overflow-x: hidden;
 }
@@ -15,6 +17,7 @@ html{
     margin-bottom: 10px;
 }
 
+/* formulario contenedor */
 #login form{
     display: flex;
     flex-wrap: nowrap;
@@ -50,21 +53,23 @@ input{
     border: 1px black solid;
 }
 
+/* este es el div de terminos y condiciones */
 .condiciones{
     display: flex;
 }
-
+/* checkbox */
 #disclaimer{
     width: 20px;
     margin: 0;
 }
-
+/* esto es un p, antes era un label pero se cambio por problemas con las propiedades */
 .disclaimer_label{
     color: gray;
     font-size: 1.5rem;
     margin: 10px 0 0 5px;
 }
 
+/* esto es para resaltar terminos y condiciones */
 .disclaimer_label a{
     text-decoration: none;
     color: #96e6a1;

@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./css/signup-desktop.css" media="screen and (min-width: 800px)">
 </head>
 <body>
+    <!-- el header, navegadores, y la mayoria de secciones exceptuando el main estan explicadas
+    en el index, para mas informacion dirigirse alli -->
+    <!-- igualmente las secciones compartidas con login y admin no se explicaran pues alli ya
+    se encuentran sus respectivos comentarios -->
     <header >
         <div class="mainbar">
             <nav class="navmobile">
@@ -41,6 +45,7 @@
     <main>
         <section id="login">
             <form action="">
+                <!-- se anadieron mas inputs dado que se require mas infor para el regisstro -->
                 <h2>Registrarse</h2>
                 <label for="first_name">Nombre</label>
                 <input type="text" name="first_name" placeholder="Ej. Rosa">
@@ -55,6 +60,7 @@
                 <label for="validate_password">Verificar contraseña</label>
                 <input type="password" name="validate_password" placeholder="Ej. 1234">
                 <br>
+                <!-- caja para los condicionales -->
                 <div class="condiciones">
                     <input type="checkbox" name="disclaimer" id="disclaimer">
                     <p class="disclaimer_label">Acepto los <a href="">terminos y condiciones</a></p>
@@ -65,6 +71,7 @@
         </section>
     </main>
     <script src="./js/script.js"></script>
+    <!-- enlace para validar datos -->
     <script src="./js/login_validation.js"></script>
 </body>
 </html>

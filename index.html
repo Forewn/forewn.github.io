@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa Hogar Samaerl Aum Weor</title>
+    <!-- Link de los estilos comunes en varias pantallas -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- estilos segun tamano -->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width : 600px)">
     <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width : 800px)">
@@ -16,11 +18,15 @@
 </head>
 <body>
     <header >
+        <!-- Barra completa -->
         <div class="mainbar" id="mainbar">
+            <!-- boton que abre el navegador en dispositivos mobiles -->
             <nav class="navmobile">
                 <img src="img/menu.png" alt="menu" class="menubtn">
             </nav>
+            <!-- titulo header -->
             <h1>Invernadero Samael Aum Weor</h1>
+            <!-- opciones para navegador -->
             <nav id="nav2">
                 <ul class="navdesktop">
                     <a href="./Login.html"><li>Login</li></a>
@@ -30,9 +36,12 @@
             </nav>
         </div>
     </header>
+    <!-- El contenedor es para una animacion de carga -->
     <div class="custom-loader"></div>
+    <!-- menu mobile, es tan pequeno que no se ve a menos que se abra -->
     <section class="navmobile-options-background">
         <div class="navmobile-options">
+            <!-- opciones del menu -->
             <ul>
                 <a href="./login.html"><li>Login</li></a>
                 <a href="./signup.html"><li>Registrarse</li></a>
@@ -40,8 +49,12 @@
             </ul>
         </div>
     </section>
+    <!-- seccion del contenido -->
     <main>
+        <!-- carrousel principal -->
         <section id="Carrousel-Container">
+            <!-- tengo 3 items en el carrouse, cada uno internamente trae una tarjeta con el
+            contenido y controles para moverse -->
             <div class="itemCarrousel" id="itemCarrousel-1">
                 <div class="cardCarrousel" id="tarjetaCarrousel-1">
                     <p>Seguridad social alimenticia</p>
@@ -71,10 +84,13 @@
                 </div>
             </div>
         </section>    
+        <!-- Intersection se refiere a cualquier espacio entre banners -->
         <div class="intersection">
             <p>El invernadero Samael Aum Weor es un una iniciativa que surge gracias a la colaboración de personas que trabajan de caracter "ad honorem" a fin de poder generar un sustento alimenticio y económico para la casa hogar Samael Aún Weor la cual le da hogar a alrededor de 60 jovenes y niños de entre 8 y 17 años</p>
             <a href="https://caridaduniversal.wordpress.com/casa-hogar-samael-aun-weor/"><div>Ver Mas</div></a>
         </div>  
+        <!-- un banner es una seccion de contenido que trae un boton, una imagen y texto,
+        el fondo se le cambia a tonos gradientes por motivos esteticos -->
         <section class="banner" id="banner2">
             <img src="./img/undraw_beach_day_cser.svg" alt="ilustracion_playa">
             <div class="textbanner">
@@ -111,6 +127,8 @@
             el producto final puede presenciar diferencias respecto al presentado en web.</p>
             <p>powered by Jhosmar Suarez</p>
     </footer>
+    <!-- en este script se comparte la animacion de carga y la aparicion del menu mobile
+    es compartido en todas las pantallas que traen el menu y el header igual -->
     <script src="./js/script.js"></script>
 </body>
 </html>

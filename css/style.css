@@ -1,3 +1,6 @@
+/* Documento compartido, estilos generales */
+
+/* variable del color del gradiente */
 :root{
     --pinky: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 }
@@ -8,6 +11,7 @@
     margin: 0;
 }
 
+/* el font-size esta hecho para trabajar con el rem */
 html{
     font-size: 62.5%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -17,17 +21,20 @@ body{
     height: 100%;
 }
 
+/* asegurarse de que el boton no crezca demasiado */
 .mainbar .navmobile{
     max-width: 45px;
     max-height: 50px;
 }
 
+/* Mantener el mainbar en pantalla */
 header{
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
+/* estilos barra principal */
 .mainbar{
     display: flex;
     font-size: 2rem;
@@ -62,6 +69,9 @@ header{
 .mainbar .navmobile img{
     padding: 10px;
 }
+
+/* este es el menu desktop, como pensamos en mobile first esta escondido a no ser de que
+se acceda desde un pc */
 #nav2{
     display: none;
 }
@@ -71,11 +81,13 @@ header{
     
 }
 
+/* oscurecer el resto del contenido mientras el menu mobile esta desplegado */
+/* inactivo */
 .navmobile-options-background{
     width: 0;
     height: 0;
 }
-
+/*activo */
 .navmobile-options-background-onclick{
     z-index: 2;
     width: 100vw;
@@ -84,6 +96,7 @@ header{
     background-color: rgba(0, 0, 0, 0.425);
 }
 
+/* contenedor del menu */
 .navmobile-options{
     display: none;
     position: fixed;
@@ -100,6 +113,7 @@ header{
     100%{width: 50vw;}
 }
 
+/* Contenedor de los links del menu */
 .navmobile-options ul{
     display: flex;
     flex-direction: column;
@@ -107,6 +121,7 @@ header{
     list-style: none;
 }
 
+/* links del menu */
 .navmobile-options li{
     padding: 20px;
     width: 100%;
@@ -120,6 +135,7 @@ header{
     animation: appear 0.1s   1  linear;
 }
 
+/* animacion para que la imagen no da;e la animacion */
 @keyframes appear {
     0%{position: absolute;
         padding-left: 0px;}
@@ -136,6 +152,7 @@ header{
     background-color: #ded1ee;
 }
 
+/* el loader */
 .custom-loader {
     width:50px;
     height:50px;
@@ -149,6 +166,7 @@ header{
   }
   @keyframes s1 {to{transform: rotate(.5turn)}}
 
+  /* cositas */
 footer{
     font-size: 1rem;
     text-align: center;

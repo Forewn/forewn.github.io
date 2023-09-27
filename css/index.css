@@ -122,13 +122,13 @@ html{
 
 main p{
     margin: 0 10% 20px 10%;
-    text-align: justify;
 }
 
 .intersection{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: justify;
     margin-bottom: 20px;
 }
 
